@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-07T02:40:32Z",
+  "vod_cdn": {
+    "enabled": true,
+    "base_url": "https://cdn.c6o9m1b7w8.org",
+    "health": {
+      "ok": true,
+      "checked_at": "2026-07-29T14:12:51Z"
+    }
+  }
+}

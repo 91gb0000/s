@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-07T02:40:32Z",
+  "live_cdn": {
+    "enabled": true,
+    "base_url": "https://newlive.c6o9m1b7w8.org",
+    "health": {
+      "monitor": "LIVE CDN | newlive.c6o9m1b7w8.org",
+      "status": "UP",
+      "status_text": "正常",
+      "last_checked": "2026-09-07T10:37:10+0800",
+      "node_up_count": 8,
+      "node_total_count": 8,
+      "node_down_count": 0,
+      "node_ratio_text": "8/8",
+      "down_nodes": []
+    }
+  }
+}

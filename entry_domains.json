@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "generation": 2,
+  "generated_at": "2026-09-07T02:40:32Z",
+  "expires_at": "2026-09-07T06:45:32Z",
+  "permanent_origin": "https://91dasai.com",
+  "domains": [
+    {
+      "domain": "91ds02.org",
+      "origin": "https://91ds02.org",
+      "lifecycle": "active",
+      "status": "UP",
+      "status_text": "正常",
+      "is_abnormal": false,
+      "success_rate": 100.0,
+      "last_checked": "2026-09-07T02:38:24Z"
+    }
+  ]
+}
