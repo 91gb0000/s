@@ -1,0 +1,648 @@
+{
+  "checked_at": "2026-09-13 02:33:20",
+  "count": 3,
+  "normal_count": 3,
+  "abnormal_count": 0,
+  "sites": [
+    {
+      "monitor": "GLOBAL | 91dasai.com",
+      "display": "91dasai.com",
+      "site_key": "91dasai.com",
+      "monitor_group": "permanent_global",
+      "group_title": "????",
+      "group_subtitle": "????",
+      "kind": "permanent",
+      "scope": "global",
+      "primary": true,
+      "domain": "",
+      "lifecycle": "",
+      "url": "https://91dasai.com/",
+      "status": "UP",
+      "status_text": "正常",
+      "is_abnormal": false,
+      "last_checked": "2026-09-13T10:28:11+0800",
+      "node_up_count": 8,
+      "node_total_count": 8,
+      "node_down_count": 0,
+      "node_ratio_text": "8/8",
+      "down_nodes": [],
+      "success_rate": 100.0
+    },
+    {
+      "monitor": "91dasai.com",
+      "display": "91dasai.com",
+      "site_key": "91dasai.com",
+      "monitor_group": "permanent_mainland",
+      "group_title": "????",
+      "group_subtitle": "??????",
+      "kind": "permanent",
+      "scope": "mainland",
+      "primary": false,
+      "domain": "",
+      "lifecycle": "",
+      "url": "https://91dasai.com/",
+      "status": "UP",
+      "status_text": "正常",
+      "is_abnormal": false,
+      "last_checked": "2026-09-13T10:23:18+0800",
+      "node_up_count": 8,
+      "node_total_count": 8,
+      "node_down_count": 0,
+      "node_ratio_text": "8/8",
+      "down_nodes": [],
+      "success_rate": 97.58
+    },
+    {
+      "monitor": "91ds02.org",
+      "display": "91ds02.org",
+      "site_key": "91ds02.org",
+      "monitor_group": "mainland",
+      "group_title": "????",
+      "group_subtitle": "????",
+      "kind": "mainland",
+      "scope": "mainland",
+      "primary": true,
+      "domain": "91ds02.org",
+      "lifecycle": "active",
+      "url": "https://91ds02.org/",
+      "status": "UP",
+      "status_text": "正常",
+      "is_abnormal": false,
+      "last_checked": "2026-09-13T10:25:26+0800",
+      "node_up_count": 8,
+      "node_total_count": 8,
+      "node_down_count": 0,
+      "node_ratio_text": "8/8",
+      "down_nodes": [],
+      "success_rate": 100.0
+    }
+  ],
+  "contacts": {
+    "fault_report_email": "bg@91dasai.com",
+    "latest_url_email": "dz@91dasai.com",
+    "twitter_url": "https://x.com/91dasai",
+    "new_movie_twitter_bot_url": "https://x.com/91dasai_new",
+    "telegram_group_url": "https://t.me/dasai_g",
+    "telegram_contact_url": "https://t.me/dasai_91"
+  },
+  "monitor_groups": {
+    "permanent_global": {
+      "title": "????",
+      "subtitle": "????",
+      "kind": "permanent",
+      "scope": "global",
+      "primary": true
+    },
+    "permanent_mainland": {
+      "title": "????",
+      "subtitle": "??????",
+      "kind": "permanent",
+      "scope": "mainland",
+      "primary": false
+    },
+    "mainland": {
+      "title": "????",
+      "subtitle": "????",
+      "kind": "mainland",
+      "scope": "mainland",
+      "primary": true
+    }
+  },
+  "domain_access": {
+    "schema_version": 1,
+    "primary_count": 2,
+    "primary_normal_count": 2,
+    "primary_abnormal_count": 0,
+    "attention_count": 1,
+    "domains": [
+      {
+        "site_key": "91dasai.com",
+        "domain": "91dasai.com",
+        "kind": "permanent",
+        "primary_scope": "global",
+        "primary_status": "UP",
+        "primary_status_text": "正常",
+        "primary_is_abnormal": false,
+        "attention": true,
+        "attention_level": "warning",
+        "attention_reasons": [
+          "integrity_unresolved"
+        ],
+        "routes": {
+          "global": {
+            "role": "primary",
+            "availability": {
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "last_checked": "2026-09-13T10:28:11+0800",
+              "monitor_count": 1,
+              "monitors": [
+                "GLOBAL | 91dasai.com"
+              ],
+              "success_rate": 100.0,
+              "node_up_count": 8,
+              "node_total_count": 8,
+              "node_down_count": 0,
+              "node_ratio_text": "8/8",
+              "down_nodes": []
+            }
+          },
+          "mainland": {
+            "role": "reference",
+            "availability": {
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "last_checked": "2026-09-13T10:23:18+0800",
+              "monitor_count": 1,
+              "monitors": [
+                "91dasai.com"
+              ],
+              "success_rate": 97.58,
+              "node_up_count": 8,
+              "node_total_count": 8,
+              "node_down_count": 0,
+              "node_ratio_text": "8/8",
+              "down_nodes": []
+            },
+            "integrity": {
+              "available": true,
+              "state": "unresolved",
+              "probe_state": "unknown",
+              "historical_risk_state": "suspected",
+              "attention": true,
+              "reason_code": "poll_status_incomplete",
+              "summary": "历史疑似污染；本轮完整性复核未完成",
+              "checked_at": "2026-09-13T02:33:14.754644+00:00",
+              "last_affected_at": "2026-09-13T00:26:14.535451+00:00"
+            }
+          }
+        }
+      },
+      {
+        "site_key": "91ds02.org",
+        "domain": "91ds02.org",
+        "kind": "mainland",
+        "primary_scope": "mainland",
+        "primary_status": "UP",
+        "primary_status_text": "正常",
+        "primary_is_abnormal": false,
+        "attention": false,
+        "attention_level": "none",
+        "attention_reasons": [],
+        "routes": {
+          "global": null,
+          "mainland": {
+            "role": "primary",
+            "availability": {
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "last_checked": "2026-09-13T10:25:26+0800",
+              "monitor_count": 1,
+              "monitors": [
+                "91ds02.org"
+              ],
+              "success_rate": 100.0,
+              "node_up_count": 8,
+              "node_total_count": 8,
+              "node_down_count": 0,
+              "node_ratio_text": "8/8",
+              "down_nodes": []
+            },
+            "integrity": {
+              "available": true,
+              "state": "clear",
+              "probe_state": "clear",
+              "historical_risk_state": null,
+              "attention": false,
+              "reason_code": "fresh_report_received",
+              "summary": "本轮未见污染",
+              "checked_at": "2026-09-13T02:33:14.754644+00:00",
+              "last_affected_at": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "cdn_speed": {
+    "schema_version": 1,
+    "checked_at": "2026-09-13T01:58:43+00:00",
+    "inventory_count": 7,
+    "selected_count": 3,
+    "abnormal_count": 0,
+    "monitors_per_domain": 1,
+    "license": {
+      "source": "subscription_api",
+      "package": "Starter Plan",
+      "allowed": 10,
+      "used": 8,
+      "subscription_reported_used": 8,
+      "observed_active_basic_monitors": 8,
+      "ignored_active_advanced_monitors": 0,
+      "unclassified_active_monitor_types": [],
+      "remaining": 2,
+      "reserve": 0,
+      "usable_remaining": 2,
+      "error": "",
+      "quota_check_ok": true
+    },
+    "domains": [
+      {
+        "domain": "91ds01.cc",
+        "cdnfly_site_id": "2767",
+        "cdnfly_site_name": "灿烂",
+        "cdnfly_enabled": true,
+        "cdnfly_state": "200",
+        "cdnfly_sync_state": "done",
+        "kind": "generic",
+        "selected": false,
+        "location_source_domain": "91ds01.cc",
+        "location_source_monitor": ""
+      },
+      {
+        "domain": "91ds02.org",
+        "cdnfly_site_id": "5529",
+        "cdnfly_site_name": "灿烂",
+        "cdnfly_enabled": true,
+        "cdnfly_state": "200",
+        "cdnfly_sync_state": "done",
+        "kind": "generic",
+        "selected": true,
+        "location_source_domain": "91ds02.org",
+        "location_source_monitor": "",
+        "status": "UP",
+        "status_text": "正常",
+        "is_abnormal": false,
+        "reasons": [],
+        "probe": {
+          "monitor": "CDN SPEED | GENERIC | 91ds02.org",
+          "monitor_id": "579946000001508002",
+          "probe": "unified",
+          "status": "UP",
+          "status_text": "正常",
+          "is_abnormal": false,
+          "reasons": [],
+          "availability": 100.0,
+          "response_time_ms": {
+            "average": 4569.0,
+            "p95": 10981.25
+          },
+          "throughput_kib_per_sec": {
+            "site24x7_reported_kb_per_sec": {
+              "average": 510.0,
+              "p95": 1063.75
+            },
+            "average": 448.24,
+            "derived_from_response_time": true
+          },
+          "nodes": [
+            {
+              "location_id": "14",
+              "location_name": "上海",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:27:08+0800"
+            },
+            {
+              "location_id": "47",
+              "location_name": "北京",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": 3801,
+              "last_checked": "2026-09-13T09:43:48+0800"
+            },
+            {
+              "location_id": "48",
+              "location_name": "杭州",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:27:08+0800"
+            },
+            {
+              "location_id": "49",
+              "location_name": "青岛",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:27:08+0800"
+            },
+            {
+              "location_id": "86",
+              "location_name": "张家口",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:27:08+0800"
+            },
+            {
+              "location_id": "91",
+              "location_name": "广州",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": 8503,
+              "last_checked": "2026-09-13T09:43:48+0800"
+            },
+            {
+              "location_id": "95",
+              "location_name": "成都",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:27:08+0800"
+            },
+            {
+              "location_id": "97",
+              "location_name": "呼和浩特",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:27:08+0800"
+            }
+          ],
+          "last_checked": "2026-07-28T20:27:08+0800",
+          "metrics_error": null
+        },
+        "last_checked": "2026-07-28T20:27:08+0800"
+      },
+      {
+        "domain": "cdn.c6o9m1b7w8.org",
+        "cdnfly_site_id": "2820",
+        "cdnfly_site_name": "灿烂",
+        "cdnfly_enabled": true,
+        "cdnfly_state": "200",
+        "cdnfly_sync_state": "done",
+        "kind": "vod",
+        "selected": true,
+        "location_source_domain": "91ds02.org",
+        "location_source_monitor": "",
+        "status": "UP",
+        "status_text": "正常",
+        "is_abnormal": false,
+        "reasons": [],
+        "probe": {
+          "monitor": "CDN SPEED | VOD | cdn.c6o9m1b7w8.org",
+          "monitor_id": "579946000001516002",
+          "probe": "unified",
+          "status": "UP",
+          "status_text": "正常",
+          "is_abnormal": false,
+          "reasons": [],
+          "availability": 100.0,
+          "response_time_ms": {
+            "average": 5268.0,
+            "p95": 11554.5
+          },
+          "throughput_kib_per_sec": {
+            "site24x7_reported_kb_per_sec": {
+              "average": 419.0,
+              "p95": 509.0
+            },
+            "average": 388.76,
+            "derived_from_response_time": true
+          },
+          "nodes": [
+            {
+              "location_id": "14",
+              "location_name": "上海",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            },
+            {
+              "location_id": "47",
+              "location_name": "北京",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": 5063,
+              "last_checked": "2026-09-13T09:55:53+0800"
+            },
+            {
+              "location_id": "48",
+              "location_name": "杭州",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            },
+            {
+              "location_id": "49",
+              "location_name": "青岛",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            },
+            {
+              "location_id": "86",
+              "location_name": "张家口",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            },
+            {
+              "location_id": "91",
+              "location_name": "广州",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": 1775,
+              "last_checked": "2026-09-13T09:55:53+0800"
+            },
+            {
+              "location_id": "95",
+              "location_name": "成都",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            },
+            {
+              "location_id": "97",
+              "location_name": "呼和浩特",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            }
+          ],
+          "last_checked": "2026-07-28T20:28:41+0800",
+          "metrics_error": null
+        },
+        "last_checked": "2026-07-28T20:28:41+0800"
+      },
+      {
+        "domain": "community-media.c6o9m1b7w8.org",
+        "cdnfly_site_id": "5617",
+        "cdnfly_site_name": "灿烂",
+        "cdnfly_enabled": true,
+        "cdnfly_state": "200",
+        "cdnfly_sync_state": "done",
+        "kind": "generic",
+        "selected": false,
+        "location_source_domain": "community-media.c6o9m1b7w8.org",
+        "location_source_monitor": ""
+      },
+      {
+        "domain": "newlive.c6o9m1b7w8.org",
+        "cdnfly_site_id": "4611",
+        "cdnfly_site_name": "灿烂",
+        "cdnfly_enabled": true,
+        "cdnfly_state": "200",
+        "cdnfly_sync_state": "done",
+        "kind": "live",
+        "selected": true,
+        "location_source_domain": "newlive.c6o9m1b7w8.org",
+        "location_source_monitor": "",
+        "status": "UP",
+        "status_text": "正常",
+        "is_abnormal": false,
+        "reasons": [],
+        "probe": {
+          "monitor": "CDN SPEED | LIVE | newlive.c6o9m1b7w8.org",
+          "monitor_id": "579946000001455014",
+          "probe": "unified",
+          "status": "UP",
+          "status_text": "正常",
+          "is_abnormal": false,
+          "reasons": [],
+          "availability": 100.0,
+          "response_time_ms": {
+            "average": 5039.0,
+            "p95": 10115.5
+          },
+          "throughput_kib_per_sec": {
+            "site24x7_reported_kb_per_sec": {
+              "average": 432.0,
+              "p95": 518.75
+            },
+            "average": 406.43,
+            "derived_from_response_time": true
+          },
+          "nodes": [
+            {
+              "location_id": "14",
+              "location_name": "上海",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            },
+            {
+              "location_id": "47",
+              "location_name": "北京",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": 4101,
+              "last_checked": "2026-09-13T09:53:58+0800"
+            },
+            {
+              "location_id": "48",
+              "location_name": "杭州",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            },
+            {
+              "location_id": "49",
+              "location_name": "青岛",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            },
+            {
+              "location_id": "86",
+              "location_name": "张家口",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            },
+            {
+              "location_id": "91",
+              "location_name": "广州",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": 2531,
+              "last_checked": "2026-09-13T09:53:58+0800"
+            },
+            {
+              "location_id": "95",
+              "location_name": "成都",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            },
+            {
+              "location_id": "97",
+              "location_name": "呼和浩特",
+              "status": "UP",
+              "status_text": "正常",
+              "is_abnormal": false,
+              "response_ms": null,
+              "last_checked": "2026-07-28T20:28:41+0800"
+            }
+          ],
+          "last_checked": "2026-07-28T20:28:41+0800",
+          "metrics_error": null
+        },
+        "last_checked": "2026-07-28T20:28:41+0800"
+      },
+      {
+        "domain": "success-cn.baichuanpay.com",
+        "cdnfly_site_id": "4042",
+        "cdnfly_site_name": "灿烂",
+        "cdnfly_enabled": true,
+        "cdnfly_state": "200",
+        "cdnfly_sync_state": "done",
+        "kind": "generic",
+        "selected": false,
+        "location_source_domain": "success-cn.baichuanpay.com",
+        "location_source_monitor": ""
+      },
+      {
+        "domain": "upload-r2.91dasai.com",
+        "cdnfly_site_id": "4914",
+        "cdnfly_site_name": "灿烂",
+        "cdnfly_enabled": true,
+        "cdnfly_state": "200",
+        "cdnfly_sync_state": "done",
+        "kind": "upload",
+        "selected": false,
+        "location_source_domain": "91dasai.com",
+        "location_source_monitor": ""
+      }
+    ]
+  }
+}
